@@ -101,7 +101,7 @@ namespace AplikasiInputDataMahasiswa
                 item.SubItems.Add(mhs.Kelas);
                 item.SubItems.Add(mhs.Nilai.ToString());
 
-
+                item.SubItems.Add(NilaiHuruf(mhs.Nilai));
                 lvwMahasiswa.Items.Add(item);
             }
         }
